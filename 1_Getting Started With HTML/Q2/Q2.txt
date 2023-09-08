@@ -1,0 +1,8 @@
+Comments in HTML serve the purpose of providing explanatory or descriptive information within the
+ code that is not displayed in the web browser when the page is rendered. They are primarily intended
+for developers, designers, or anyone working on the HTML document to understand the code better,
+add notes, or temporarily disable parts of the code without deleting them. Comments are
+ignored by web browsers and do not affect the appearance or functionality of the web
+page.
+
+<!-- This is a comment. -->

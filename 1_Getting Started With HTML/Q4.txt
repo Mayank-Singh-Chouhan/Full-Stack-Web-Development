@@ -1,0 +1,15 @@
+Tag:
+
+-In HTML, a tag is a special code enclosed within angle brackets (< >) that defines how a specific element should be displayed or behave on a web page.
+-Tags are used to structure and format the content of a web page.
+-Tags are case-insensitive, meaning you can use uppercase or lowercase letters, but lowercase is recommended for consistency.
+
+Element:
+
+-An element is a combination of an opening tag, content, and a closing tag. It represents a specific piece of content on a web page.
+-Elements are the building blocks of HTML documents, and they define the structure and semantics of the content.
+-Elements are made up of a start tag, content, and an end tag.
+
+Example: <p>This is a paragraph of text.</p>
+
+-In this example, <p> and </p> are the tags, and the entire <p>This is a paragraph of text.</p> construct is the "paragraph" element.
