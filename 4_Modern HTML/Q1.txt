@@ -1,0 +1,15 @@
+Key features of HTML5 :-
+
+Semantics: HTML5 includes new elements and attributes that provide better semantic meaning to web content, such as <header>, <nav>, <article>, <section>, and <footer>, making it easier to structure and understand web documents.
+
+Multimedia Support: HTML5 includes native support for audio and video elements (<audio> and <video>), reducing the need for third-party plugins like Flash.
+
+Canvas: The <canvas> element allows for dynamic rendering and manipulation of graphics, charts, and animations directly in the browser.
+
+Scalability Vector Graphics (SVG): HTML5 includes support for SVG, enabling the use of vector graphics for better image quality and responsiveness.
+
+Geolocation: HTML5 provides a geolocation API that allows websites to access a user's geographic location, enabling location-based services and applications.
+
+Local Storage: HTML5 introduced the Web Storage API, which allows web applications to store data locally in a user's browser, improving offline access and performance.
+
+Form Enhancements: HTML5 introduced new input types (e.g., <input type="date">, <input type="email">) and attributes (e.g., required, placeholder) that make form creation and validation more robust and user-friendly.

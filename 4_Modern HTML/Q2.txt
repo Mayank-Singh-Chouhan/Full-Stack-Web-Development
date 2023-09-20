@@ -1,0 +1,12 @@
+HTML entities are special codes or sequences of characters used to represent characters that have
+a specific meaning or might not be displayed correctly if entered directly into an HTML document.
+These entities are especially useful for characters with reserved meanings in HTML, such as angle 
+brackets (< and >), quotation marks, and special symbols.
+
+Here are five commonly used HTML entities:
+
+&lt; - Represents the less-than symbol <.
+&gt; - Represents the greater-than symbol >.
+&amp; - Represents the ampersand symbol &.
+&copy; - Represents the copyright symbol ©.
+&reg; - Represents the registered trademark symbol ®.
