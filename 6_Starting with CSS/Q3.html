@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <style>
+        /* Custom color palette */
+        :root {
+            --main-bg-color: salmon;
+            --input-bg-color: #e0e0e0;
+            --submit-bg-color: #007bff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--main-bg-color);
+            padding: 20px;
+        }
+
+        /* Form container */
+        .form-container {
+            /* Applying opacity */
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Form inputs */
+        .form-input {
+            background-color: var(--input-bg-color);
+            border: none;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        /* Submit button */
+        .submit-button {
+            background-color: var(--submit-bg-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Form section headings */
+        .form-section-heading {
+            color: var(--text-color);
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <form>
+            <h2 class="form-section-heading">Contact Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="form-input" placeholder="Your Name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="form-input" placeholder="Your Email">
+
+            <h2 class="form-section-heading">Message</h2>
+            <textarea id="message" class="form-input" placeholder="Your Message"></textarea>
+            <br>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

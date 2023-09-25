@@ -1,0 +1,12 @@
+.external {
+    color: white;
+    background-color: saddlebrown;
+    width: 50%;
+}
+
+.all {
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    width: 30%;
+}
