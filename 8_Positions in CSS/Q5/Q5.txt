@@ -1,0 +1,10 @@
+z-index:
+
+The z-index property in CSS is used to control the stacking order of positioned elements.
+Elements with a higher z-index value are stacked above elements with lower values. If two
+elements have the same z-index, the one that comes later in the HTML or is last in the document 
+order will be stacked above.
+
+In this example, we have two absolutely positioned boxes (#box1 and #box2). The z-index property 
+is used to control their stacking order. The red box (#box1) has a higher z-index value than the
+blue box (#box2). Therefore, #box1 will be stacked above #box2.

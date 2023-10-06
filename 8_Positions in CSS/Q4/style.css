@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #222;
+}
+
+nav {
+    color: white;
+    padding: 0 20px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.right .btn {
+    color: gold;
+    padding: 10px 20px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
