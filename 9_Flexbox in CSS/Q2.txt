@@ -1,0 +1,57 @@
+justify-content:
+
+Role: This property controls the alignment of items along the main
+axis of the flex container.
+
+Values:
+- flex-start: Items are packed at the start of the container.
+- flex-end: Items are packed at the end of the container.
+- center: Items are centered along the main axis.
+- space-between: Items are evenly distributed with the first
+item at the start and the last item at the end.
+- space-around: Items are evenly distributed with equal space around them.
+- space-evenly: Items are evenly distributed with equal space around them,
+including before the first and after the last item.
+
+
+align-items:
+
+Role: This property controls the alignment of items along the cross axis of the flex container.
+
+Values:
+- flex-start: Items are aligned at the start of the container along the cross axis.
+- flex-end: Items are aligned at the end of the container along the cross axis.
+- center: Items are centered along the cross axis.
+- baseline: Items are aligned based on their baseline.
+- stretch: Items are stretched to fill the container along the cross axis.
+
+
+gap:
+
+Role: This property sets the spacing between flex items.
+
+Value: A length value or the keyword normal.
+
+Note: The gap property is shorthand for row-gap and column-gap, providing a convenient
+way to set the gap between flex items both horizontally and vertically.
+
+
+flex-direction:
+
+Role: This property defines the main axis along which flex items are placed in the flex container.
+
+Values:
+- row: Items are placed along the horizontal axis (from left to right).
+- row-reverse: Items are placed along the horizontal axis in the reverse order.
+- column: Items are placed along the vertical axis (from top to bottom).
+- column-reverse: Items are placed along the vertical axis in the reverse order.
+
+
+flex-wrap:
+
+Role: This property defines whether flex items are forced onto a single line or can wrap onto multiple lines.
+
+Values:
+- nowrap: All flex items are on one line (the default behavior).
+- wrap: Flex items wrap onto multiple lines as needed.
+- wrap-reverse: Flex items wrap onto multiple lines in reverse order.

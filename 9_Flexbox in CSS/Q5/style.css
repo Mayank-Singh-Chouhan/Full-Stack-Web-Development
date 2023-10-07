@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    overflow: hidden;
+}
+
+.contianer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.left {
+    flex: 1;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    gap: 30px;
+}
+
+.right {
+    flex: 1
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.head nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 25.347px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 20.278px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1.014px solid rgba(51, 51, 51, 0.20);
+}
+
+.bottom .btn {
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.menu>.bottom> :nth-child(1) {
+    background-color: #FB792B;
+    color: #FFF;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.title h1 {
+    font-size: 48.667px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title div {
+    font-size: 32.444px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title div :nth-child(1) {
+    color: #01BB0A;
+}
+
+.title div :nth-child(2) {
+    color: #FB792B;
+}
+
+.title div :nth-child(3) {
+    color: #213D77;
+}
+
+
+.content {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.selction {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 18.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.selction> :nth-child(1) {
+    background-color: #213D77;
+    color: #FFFFFF;
+}
+
+.info-widget {
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10.139px;
+    border: 1px solid rgba(51, 51, 51, 0.10);
+}
+
+.slector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.top,
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 25.347px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.travel .slector {
+    align-items: flex-start;
+}
+
+.search-train-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 10px;
+    background-color: #01BB0A;
+    color: #FFF;
+    text-align: center;
+    font-size: 25.347px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
