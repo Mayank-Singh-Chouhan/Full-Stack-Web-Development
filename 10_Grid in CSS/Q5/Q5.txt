@@ -1,0 +1,13 @@
+In CSS Grid and CSS Flexbox, justify-items and justify-self are properties used to control the horizontal alignment (justification) of grid items or flex items within their container. However, they are used in slightly different contexts and have distinct purposes:
+
+justify-items:
+- justify-items is used in the context of a grid container (CSS Grid).
+- It defines how all grid items within the container should be horizontally aligned.
+- It accepts values like start (the default), end, center, and stretch. These values determine the horizontal alignment of grid items relative to the grid cell they occupy.
+- When you set justify-items on the grid container, it affects the alignment of all grid items within that container unless overridden by individual grid items using justify-self.
+
+justify-self:
+- justify-self is used within the context of individual grid or flex items (CSS Grid and Flexbox).
+- It allows you to control the horizontal alignment of a specific grid or flex item within its parent container.
+- It can also take values like start, end, center, and stretch, similar to justify-items, but it affects only the alignment of the specific item it's applied to.
+- You can use justify-self to override the horizontal alignment set by justify-items for a specific item.
