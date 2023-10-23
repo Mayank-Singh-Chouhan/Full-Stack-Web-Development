@@ -1,0 +1,25 @@
+The var() function in CSS (Cascading Style Sheets) is used to define
+and apply custom properties or custom variables within your
+stylesheets. These variables can store values that you want to reuse
+throughout your CSS code, making it easier to maintain and update your
+design. The primary purposes of using the var() function in CSS are as
+follows:
+
+
+- Reusability: By defining custom variables, you can store values that 
+are used repeatedly in your styles, such as colors, font sizes, 
+spacing, or any other property value. This makes your code more 
+modular and easier to update, as you can change a value in one place 
+(the variable declaration) and have it automatically update throughout 
+your styles.
+
+- Consistency: Custom variables help maintain design consistency across 
+your website or application. When you use the same variable for a 
+specific value, it ensures that all instances of that value are 
+consistent, making it easier to create a cohesive design.
+
+- Maintainability: If you need to change a design element, you can 
+update the value of a custom variable once, and that change will 
+propagate to all elements that use that variable. This reduces the 
+risk of errors and saves time compared to manually updating each 
+instance of a value.
