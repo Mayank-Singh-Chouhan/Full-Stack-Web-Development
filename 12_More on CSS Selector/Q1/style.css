@@ -1,0 +1,49 @@
+/* B(a) - target the ancho tag a change the color */
+nav a {
+    color: green;
+}
+
+/* B(b) - target the first h2 tag and change the text and background color*/
+nav>h2 {
+    color: red;
+    background-color: snow;
+}
+
+/* B(c) - target the first p tag and change the text to red */
+ul+p {
+    color: red;
+}
+
+/* C(a) - target the anchor tag with attribute "href" and change color  to red and remove the text underline */
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+
+/* C(b) - Target the anchor tag with the attribute of the class name 'active'. change the text color, and provide the text style properties with underlining. */
+a[class='active'] {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* c(c) - Target the anchor tag with the attribute of class target  whose value is "_self" and change the background color */
+a[target="_self"] {
+    background-color: grey;
+}
+
+/* D(a) - Target the last <p> tag and add "..." i.e. three dots after its value */
+p:last-child::after {
+    content: "...";
+}
+
+
+/* D(b) - Target the list of bullet points and change the color of the bullet points without changing the list item's vlaue */
+li::marker {
+    color: green;
+}
+
+/* D(c) - Among the three <p> tags target the 2nd <p> tag. select the first letter of the second <p> tag, and change the color to red and also increase the font size to 30px. */
+p:nth-child(even)::first-letter {
+    color: red;
+    font-size: 30px;
+}
