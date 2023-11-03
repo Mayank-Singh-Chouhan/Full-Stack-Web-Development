@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linen;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 2px solid black;
+    min-height: 1000px;
+    width: 100%;
+    max-width: 900px;
+    background: #FFFFFF;
+    margin: 20px;
+    box-shadow: 1px 3px 57px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 3px 57px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 3px 57px 1px rgba(0, 0, 0, 0.75);
+}
+
+
+.leftside {
+    color: white;
+    background: #3C4240;
+}
+
+.top {
+    background: #5271FF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.bottom {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-info p {
+    color: gray;
+}
+
+.rightside {
+    padding: 20px;
+    display: flex;
+    flex-grow: auto;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.rightside .section .section-head {
+    color: #8099FF;
+}
+
+.section-info-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section .section-body {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.progress {
+    margin-top: 10px;
+    padding: 0;
+    width: 90%;
+    height: 5px;
+    overflow: hidden;
+    background: #e5e5e5;
+    border-radius: 6px;
+}
+
+.bar {
+    position: relative;
+    float: left;
+    min-width: 1%;
+    height: 100%;
+    background: cornflowerblue;
+}
