@@ -1,0 +1,53 @@
+Unary Operators:
+
+- Unary operators work with a single operand, which is the value they operate on.
+- They are often used for negation, incrementing/decrementing, type conversion, and other single-operand operations.
+
+Example unary operators:
+- (Negation)
+++ (Increment)
+-- (Decrement)
+typeof (Type of)
+! (Logical NOT)
+
+let x = 5;
+let negation = -x;        // Unary negation
+let increment = ++x;      // Pre-increment
+let decrement = --x;      // Pre-decrement
+let type = typeof x;      // Type of x
+let isTrue = !true;       // Logical NOT
+
+
+Binary Operators:
+
+- Binary operators work with two operands, typically one on the left and one on the right, and perform an operation between them.
+- They are used for arithmetic, comparison, assignment, and logical operations, among others.
+
+Example binary operators:
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+=== (Strict equality)
+= (Assignment)
+&& (Logical AND)
+
+let a = 5;
+let b = 3;
+let addition = a + b;      // Binary addition
+let subtraction = a - b;   // Binary subtraction
+let multiplication = a * b; // Binary multiplication
+let equality = a === b;    // Binary strict equality
+let assignment = a = b;    // Binary assignment
+let logicalAnd = true && false; // Binary logical AND
+
+
+Ternary Operator:
+
+- The ternary operator, also known as the conditional operator, is a special operator in JavaScript that takes three operands.
+- It is used to create conditional expressions that evaluate to one of two values based on a condition.
+- The ternary operator has the form: condition ? valueIfTrue : valueIfFalse.
+- It's a concise way to express simple if-else logic.
+
+let age = 20;
+let canVote = age >= 18 ? "Yes" : "No"; // Ternary operator
