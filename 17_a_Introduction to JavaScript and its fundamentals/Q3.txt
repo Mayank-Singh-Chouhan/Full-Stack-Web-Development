@@ -1,0 +1,24 @@
+- Number: Represents numeric values (e.g., 42, 3.14).
+
+let integerNumber = 42;
+let floatingPointNumber = 3.14;
+
+- String: Represents textual data (e.g., "Hello", 'World').
+
+let greeting = "Hello, world!";
+let name = 'Alice';
+
+- Boolean: Represents true or false values (e.g., true, false).
+
+let isTrue = true;
+let isFalse = false;
+
+- Undefined: Represents an uninitialized variable (e.g., let x;).
+
+let undefinedValue;
+console.log(undefinedValue); // Outputs: undefined
+
+Null: The Null data type has only one value, which is null. It represents 
+the intentional absence of any object value.
+
+let noValue = null;
