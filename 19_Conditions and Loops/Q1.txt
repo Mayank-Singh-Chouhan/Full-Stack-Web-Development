@@ -1,0 +1,47 @@
+Conditional statements in programming are used to make decisions and execute different code 
+blocks based on certain conditions. These conditions are typically expressed as boolean expressions 
+that evaluate to either true or false. Depending on the evaluation result, the program will take
+different paths and execute different sets of instructions.
+
+let x = 10;
+
+if (x > 5) {
+  console.log("x is greater than 5");
+}
+
+if (condition) {
+  // Code to be executed if the condition is true
+} else {
+  // Code to be executed if the condition is false
+}
+
+if (condition) {
+  // Code to be executed if the condition is true
+} else {
+  // Code to be executed if the condition is false
+}
+
+switch (expression) {
+  case value1:
+    // Code to be executed if expression === value1
+    break;
+  case value2:
+    // Code to be executed if expression === value2
+    break;
+  // More cases...
+  default:
+    // Code to be executed if none of the cases match
+}
+
+let day = "Monday";
+
+switch (day) {
+  case "Monday":
+    console.log("It's the start of the week");
+    break;
+  case "Friday":
+    console.log("It's almost the weekend");
+    break;
+  default:
+    console.log("It's a regular day");
+}

@@ -1,0 +1,70 @@
+oops in programming are constructs that allow you to repeatedly execute a block of code based on a
+certain condition. They are essential for automating repetitive tasks, iterating over collections
+of data, and performing operations a specific number of times.
+
+There are several types of loops in JavaScript, and here are the most commonly used ones:
+
+************************************
+
+for (initialization; condition; update) {
+  // Code to be executed in each iteration
+}
+
+for (let i = 1; i <= 5; i++) {
+  console.log(`Iteration ${i}`);
+}
+
+************************************
+
+while (condition) {
+  // Code to be executed as long as the condition is true
+}
+
+let i = 1;
+
+while (i <= 5) {
+  console.log(`Iteration ${i}`);
+  i++;
+}
+
+************************************
+
+do {
+  // Code to be executed at least once, and then as long as the condition is true
+} while (condition);
+
+let i = 1;
+
+do {
+  console.log(`Iteration ${i}`);
+  i++;
+} while (i <= 5);
+
+*************************************
+
+for (const element of array) {
+  // Code to be executed for each element in the array
+}
+
+const colors = ['red', 'green', 'blue'];
+
+for (const color of colors) {
+  console.log(color);
+}
+
+**************************************
+
+for (const key in object) {
+  // Code to be executed for each property in the object
+}
+
+const person = {
+  name: 'John',
+  age: 30,
+  city: 'New York'
+};
+
+for (const key in person) {
+  console.log(`${key}: ${person[key]}`);
+}
+
